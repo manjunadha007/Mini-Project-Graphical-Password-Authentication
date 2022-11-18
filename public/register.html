@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/form.js"></script>
+
+</head>
+
+<body bgcolor="bisque">
+
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+    <form action="level2.html" method="GET">
+        <h1 class="heading" style="text-align: center;">Register</h1>
+        <input type="text" placeholder="name" autocomplete="off" id="name" required>
+        <input type="email" placeholder="email" autocomplete="off" id="email" required>
+        <input type="password" placeholder="password" autocomplete="off" id="password" required>
+        <!-- <button class="submit-btn gotolev2">register</button> -->
+        <!-- <a href="/next" id="fornext">Next</a><br> -->
+        <input type="submit" onclick="signUp()" value="Next" class="next-btn" />
+    </form>
+
+</body>
+
+</html>

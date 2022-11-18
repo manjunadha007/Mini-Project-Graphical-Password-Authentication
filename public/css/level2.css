@@ -1,0 +1,55 @@
+.mainForm {
+    position: absolute;
+
+    margin-left: 45%;
+}
+.red {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  .green {
+  
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  .blue {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+  .next-btn1 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+.next-btn1:hover {
+    background-color: brown;
+    color: white;
+}
+  .colorStore{
+    opacity: 50;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: -50px;
+    border-radius: 5px;
+    background: rgba(120, 118, 118, 0.3);
+    border: none;
+    color: rgb(9, 9, 9);
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+}

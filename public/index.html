@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function disableResize() {
+            parent.document.getElementById("upframe").noResize = true
+            parent.document.getElementById("downframe").noResize = true
+        }
+    </script>
+</head>
+<frameset rows="20%,*" overflow-y="hidden" noresize>
+    <frame id="upframe" name="frame1" src="main.html" noResize=false />
+    <frame id="downframe" name="frame2" src="login.html" overflow-y="hidden" />
+
+</frameset>
+
+</html>

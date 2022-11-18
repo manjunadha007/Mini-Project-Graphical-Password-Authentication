@@ -1,0 +1,134 @@
+.register-btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+#text {
+    position: relative;
+    margin-top: 70px;
+}
+.login-btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 50%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+.register-btn:hover,.login-btn:hover {
+    background-color: brown;
+    color: white;
+}
+.next-btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+.next-btn:hover {
+    background-color: brown;
+    color: white;
+}
+#name, #email, #password{
+    opacity: 50;
+    width: 20%;
+    height: 25px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(120, 118, 118, 0.3);
+    border: none;
+    color: black;
+    padding: 15px;
+    transition: .5s;
+}
+#fornext {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    align-items: center;
+    position: absolute;
+    margin-left: 45%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+#fornext:hover {
+    background-color: white;
+    color: #000;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 60px;
+    text-align: center;
+}
+span {
+    text-shadow: 2px 4px 9px blue;
+}
+.fieldset1 {
+    position: relative;
+    margin-left: 20%;
+    height: 470px;
+    width: 870px;
+}
+
+.mainFormLogin {
+    position: absolute;
+
+    margin-left: 39%;
+}
+.redLogin {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  .greenLogin {
+  
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  .blueLogin {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+  .colorStoreLogin {
+    opacity: 50;
+    width: 170px;
+    height: 25px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 38%;
+    border-radius: 5px;
+    background: rgba(120, 118, 118, 0.3);
+    border: none;
+    color: rgb(9, 9, 9);
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+}
